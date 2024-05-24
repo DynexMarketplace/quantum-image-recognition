@@ -50,6 +50,9 @@ from HybridQRBM.samplers import DynexSampler
 import warnings
 warnings.filterwarnings('ignore')
 
+# Test Dynex account setup:
+dynex.test()
+
 # Parameters:
 INIT_LR    = 1e-3  # initial loss rate for optimizer
 BATCH_SIZE = 10000 # number of images per batch
